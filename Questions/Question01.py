@@ -10,3 +10,11 @@
 #
 """
 
+from student import Student
+
+if __name__ == '__main__':
+
+    s1 = Student("George", "Bailey", "DevOps")
+
+    Student.attendCollege(s1)
+    Student.sitExams(s1)
